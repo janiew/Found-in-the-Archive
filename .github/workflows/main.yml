@@ -86,7 +86,7 @@ jobs:
       - name: Build the app
         working-directory: ./app
         env:
-          APP_NAME: My Twine game
+          APP_NAME: Found in the Archive
           APPLE_ID: ${{ secrets.APPLE_ID }}
           APPLE_ID_PASSWORD: ${{ secrets.APPLE_ID_PASSWORD }}
           WINDOWS_PFX_FILE: ${{ steps.write_file.outputs.filePath }}
